@@ -56,19 +56,19 @@
               </div>
         </nav>
         <!-- Slider or Carousel  -->
-        <div class="carousel lg:h-[550px] lg:m-8 bg-banner-bg-color">
+        <div class="carousel w-full lg:h-[550px] lg:m-8 bg-banner-bg-color">
           <!-- slide 1  -->
           <div id="slide1" class="carousel-item relative self-center w-full">
-            <div class="flex flex-col-reverse lg:flex-row gap-8 p-3 lg:p-4">
+            <div class="flex flex-col lg:flex-row lg:gap-8 p-3 lg:p-4">
               <div class="space-x-7 pl-6 flex-1">
                 <h2 class="text-4xl lg:text-6xl font-bold ml-5 mb-4">
                   Ride-on R15 V4 <br> with Smile
                 </h2>
-                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nihil quo repellat, officia tenetur fugiat!</p>
+                <p class="text-left w-1/2 lg:w-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nihil quo repellat, officia tenetur fugiat!</p>
                 <button class="btn bg-button-bg-color m-2 text-white">Purchase</button>
               </div>
               <div class="flex-1">
-                <img class="h-96" src="./images/slider/bike1.png" class="lg:w-[400px]" />
+                <img class="h-auto lg:h-96" src="./images/slider/bike1.png" class="lg:w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -78,7 +78,7 @@
           </div> 
           <!-- slide 2  -->
           <div id="slide2" class="carousel-item relative self-center w-full">
-            <div class="flex flex-col-reverse lg:flex-row gap-8 p-3 lg:p-4">
+            <div class="flex flex-col lg:flex-row lg:gap-8 p-3 lg:p-4">
               <div class="space-x-7 pl-6 flex-1">
                 <h2 class="text-4xl lg:text-6xl font-bold ml-5 mb-4">
                   Ride-on R15 V4 <br> with Smile
@@ -87,7 +87,7 @@
                 <button class="btn bg-button-bg-color m-2 text-white">Purchase</button>
               </div>
               <div class="flex-1">
-                <img class="h-96" src="./images/slider/bike2.png" class="lg:w-[400px]" />
+                <img class="h-auto lg:h-96" src="./images/slider/bike2.png" class="lg:w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -97,7 +97,7 @@
           </div> 
           <!-- Slide 3  -->
           <div id="slide3" class="carousel-item relative self-center w-full">
-            <div class="flex flex-col-reverse lg:flex-row gap-8 p-3 lg:p-4">
+            <div class="flex flex-col lg:flex-row gap-8 p-3 lg:p-4">
               <div class="space-x-7 pl-6 flex-1">
                 <h2 class="text-4xl lg:text-6xl font-bold ml-5 mb-4">
                   Ride-on R15 V4 <br> with Smile
@@ -106,7 +106,7 @@
                 <button class="btn bg-button-bg-color m-2 text-white">Purchase</button>
               </div>
               <div class="flex-1">
-                <img class="h-96" src="./images/slider/bike3.png" class="lg:w-[400px]" />
+                <img class="h-auto lg:h-96" src="./images/slider/bike3.png" class="lg:w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -116,7 +116,7 @@
           </div> 
           <!-- Slide 4  -->
           <div id="slide4" class="carousel-item self-center relative w-full">
-            <div class="flex flex-col-reverse lg:flex-row gap-8 p-3 lg:p-4">
+            <div class="flex flex-col lg:flex-row gap-8 p-3 lg:p-4">
               <div class="space-x-7 pl-6 flex-1">
                 <h2 class="text-4xl lg:text-6xl font-bold ml-5 mb-4">
                   Ride-on R15 V4 <br> with Smile
@@ -125,7 +125,7 @@
                 <button class="btn bg-button-bg-color m-2 text-white">Purchase</button>
               </div>
               <div class="flex-1">
-                <img class="h-96" src="./images/slider/bike4.png" class="lg:w-[400px]" />
+                <img class="h-auto lg:h-96" src="./images/slider/bike4.png" class="lg:w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -135,13 +135,13 @@
           </div>
         </div>
     </header>
-    <main class="md: container md:mx-auto">
+    <main class="items-center">
       <!-- Featured bike  -->
-      <section class="items-center py-8">
-        <h1 class="text-center font-bold text-5xl">Fetured Bikes In This Year</h1>
-        <div class="flex gap-12 p-8">
+      <section class="items-center justify-center py-8 w-full">
+        <h1 class="text-center font-bold text-4xl lg:text-5xl w-full">Fetured Bikes In This Year</h1>
+        <div class="flex flex-col lg:flex-row gap-12 p-8">
           <div class="">
-            <img src="./images/others/feature-bike.png" alt="">
+            <img class="p-0" src="./images/others/feature-bike.png" alt="">
           </div>
           <div class="">
             <img src="./images/others/feature-bike.png" alt="">
@@ -153,8 +153,8 @@
       </section>
       <!-- Latest news  -->
       <section>
-        <h1 class="font-bold text-4xl text-center">Latest News</h1>
-        <div class="flex gap-6 p-8">
+        <h1 class="font-bold text-4xl lg:text-5xl text-center">Latest News</h1>
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-6 p-8">
           <div class="">
             <img src="./images/others/latest1.png" alt="">
             <h3 class="font-bold text-left text-2xl py-3">Ducati XDIAVEL S-73</h3>
@@ -177,11 +177,11 @@
       </section>
       <!-- Happy customers review  -->
       <section class="py-8">
-        <h1 class="font-bold text-center text-5xl pt-8 pb-11">
+        <h1 class="font-bold text-center text-4xl lg:text-5xl pt-8 pb-11">
           Happy <span class="text-primary-color">Clients says</span></h1>
-          <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="grid place-content-center gap-10 mx-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <!-- first review  -->
-            <div class="card card-compact w-72 bg-base-100 p-9 shadow-xl">
+            <div class="card px-auto card-compact w-full bg-base-100 lg:p-9 shadow-xl">
               <figure><img class="w-36" src="./images//others/user-1.png" alt="person" /></figure>
               <div class="card-body items-center">
                 <p>Slate helps you see how 
@@ -200,7 +200,7 @@
               </div>
             </div>
             <!-- Second review  -->
-            <div class="card card-compact w-72 bg-base-100 p-9 shadow-xl">
+            <div class="card card-compact w-full bg-base-100 p-9 shadow-xl">
               <figure><img class="w-36" src="./images/others/user-2.png" alt="person" /></figure>
               <div class="card-body items-center">
                 <p>Slate helps you see how 
@@ -219,7 +219,7 @@
               </div>
             </div>
             <!-- third review  -->
-            <div class="card card-compact w-72 bg-base-100 p-9 shadow-xl">
+            <div class="card card-compact w-full bg-base-100 p-9 shadow-xl">
               <figure><img class="w-36" src="./images/others/user-3.png" alt="person" /></figure>
               <div class="card-body items-center">
                 <p>Slate helps you see how 
@@ -245,7 +245,7 @@
           Frequently <span class="text-primary-color">Asked Questions</span></h1>
           <div class="grid grid-rows-1 gap-24 md:grid-rows-1 lg:grid-cols-2">
             <div>
-              <img class="lg:w-full w-1/2" src="./images/others/faq.png" alt="">
+              <img class="lg:w-full w-1/2 mx-auto lg:m-0" src="./images/others/faq.png" alt="">
             </div>
             <div class="">
               <!-- First question  -->
